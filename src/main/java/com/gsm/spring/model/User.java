@@ -10,6 +10,7 @@ public class User {
 	private String name;
 	@Column
 	private int age;
+	private int sal;
 
 	public String getName() {
 		return name;
